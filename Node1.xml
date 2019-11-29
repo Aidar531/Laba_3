@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<agentCfg>
+    <NodeName>Node1</NodeName>
+    <amITheFirst>true</amITheFirst>
+    <Destination>Node8</Destination>
+    <neighbours>
+        <neighbour nodeName="Node5" weight="3.0"/>
+        <neighbour nodeName="Node2" weight="6.0"/>
+    </neighbours>
+</agentCfg>

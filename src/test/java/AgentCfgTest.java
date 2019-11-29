@@ -19,11 +19,11 @@ public class AgentCfgTest {
         a.setDestination("2");
         //a.setAmITheFirst(true);
 
-        WorkWithXml.marshalAny(AgentCfg.class ,a,"First.xml");
+//        WorkWithXml.marshalAny(AgentCfg.class ,a,"First.xml");
 
-        AgentCfg agentCfg = WorkWithXml.unMarshalAny(AgentCfg.class, "First.xml");
+        AgentCfg agentCfg = WorkWithXml.unMarshalAny(AgentCfg.class, "Node1.xml");
 
-        System.out.println(agentCfg);
+        System.out.println(agentCfg.getNeighbours().get(1).getWeight());
 
 //        AgentCfg expected = new AgentCfg();
 //        expected.setNodeName("3");

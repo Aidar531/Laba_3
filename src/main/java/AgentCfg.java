@@ -64,11 +64,11 @@ public class AgentCfg {
         return Objects.hash(NodeName, neighbours);
     }
 
-    public boolean isAmITheFirst() {
+    public boolean amITheFirst() {
         return amITheFirst;
     }
 
-    public void setAmITheFirst(boolean amITheFirst) {
+    public void setamITheFirst(boolean amITheFirst) {
         this.amITheFirst = amITheFirst;
     }
 }
